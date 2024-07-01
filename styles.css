@@ -1,0 +1,282 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.btn-get-started {
+    background-color: #ffd700;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background: linear-gradient(90deg, rgba(255,229,152,1) 0%, rgba(255,182,150,1) 100%);
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    color: #000;
+    margin: 0 0 20px;
+}
+
+.btn-learn-more {
+    display: inline-block;
+    background-color: #ffd700;
+    color: #000;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.hero-image img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* About Us Section */
+.page {
+    background: linear-gradient(to bottom, #ffccd5, #ffedcc);
+    padding: 50px 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.about-content {
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.about-content h2 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+    
+}
+
+.about-content p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.about-content img {
+    margin-left: 20px;
+    border-radius: 10px;
+    max-width: 45%;
+    height: auto;
+}
+
+/* Mission and Vision Section */
+
+
+.mission-content, .vision-content {
+    background: white;
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    
+}
+
+.mission-content img {
+    margin-left: 20px;
+    border-radius: 10px;
+    max-width: 45%;
+    height: auto;
+}
+
+.mission-content h2, .vision-content h2 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+}
+
+.mission-content p, .vision-content p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Impact Section */
+.impact-items h2{
+    margin-top: 50px;
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+
+
+.impact-item {
+    background: rgb(255, 255, 255);
+    display:inline-table ;
+
+    width: 30%;
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.impact-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.impact-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.impact-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+/* Contact Section */
+.contact {
+    background: linear-gradient(to bottom, #ffccd5, #ffedcc);
+    padding: 50px 20px;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    background: white;
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact form input, .contact form textarea {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #ffd700;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.contact form button:hover {
+    background-color: #ffc700;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-logo img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+}
